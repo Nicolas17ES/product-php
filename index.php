@@ -15,10 +15,11 @@
 // Include the FPDF library
 require('fpdf186/fpdf.php');
 
+
 /**
  * Log error messages to the server's error log.
  *
- * @param string $message The error message to log.
+ * @param string $message The error message to log
  */
 function logError($message) {
     error_log($message);
